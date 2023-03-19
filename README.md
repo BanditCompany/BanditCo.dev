@@ -7,7 +7,7 @@ Dark themed website template built on AstroJS, designed for saas/startup busines
 Astro, React, Tailwind, Framer Motion
 
 ## Live link
-[https://tailcast.vercel.app/](https://tailcast.vercel.app/)
+https://banditco.dev/
 
 ##  Project Structure
 
