@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
-import { FacebookIcon } from "../assets/icons/FacebookIcon";
+import { BarkleIcon } from "../assets/icons/BarkleIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
@@ -25,7 +25,7 @@ export const Navbar = () => {
                 <TailcastLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                Tailcast
+                BanditCo
               </div>
             </div>
           </a>
@@ -60,18 +60,6 @@ export const Navbar = () => {
           transition={{ duration: 0.3 }}
           exit={{ opacity: 0 }}
         >
-          <div className="grow basis-0 justify-end hidden lg:flex">
-            <a
-              className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-              href="https://github.com/matt765/Tidestream"
-              target="_blank"
-              aria-label="source code"
-            >
-              <GithubIcon />
-              Source code
-            </a>
-          </div>
         </motion.div>
         <div
           className="lg:hidden flex flex-col  px-2 py-3 border-solid border border-gray-600 rounded-md cursor-pointer hover:bg-customDarkBg2"

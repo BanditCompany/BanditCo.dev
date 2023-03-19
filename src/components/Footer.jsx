@@ -1,4 +1,4 @@
-import { FacebookIcon } from "../assets/icons/FacebookIcon";
+import { BarkleIcon } from "../assets/icons/BarkleIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
@@ -15,37 +15,28 @@ export const Footer = () => {
                   <TailcastLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
-                  Tailcast
+                  BanditCo
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find 
-                <a
-                  href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
-                  target="_blank"
-                  className="text-gray-100 ml-1.5 "
-                  aria-label="DarkAdmin"
-                >
-                   here.
-                </a>
+              BanditCo Software Development: Pioneering open-source AI and fostering community connections!
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://barkle.chat/@BanditCo"
                 >
-                  <FacebookIcon />
+                  <BarkleIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://twitter.com/banditco_"
                 >
                   <TwitterIcon />
                 </a>
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://www.instagram.com/banditco.dev"
                 >
                   <InstagramIcon />
                 </a>
@@ -57,22 +48,12 @@ export const Footer = () => {
                 <ul>
                   <li className="mb-4">
                     <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Services
+                      Avunite
                     </a>
                   </li>
                   <li className="mb-4">
                     <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      About Us
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      News and Stories
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Roadmap
+                      Barkle
                     </a>
                   </li>
                 </ul>
@@ -87,31 +68,6 @@ export const Footer = () => {
                       Organization Team
                     </a>
                   </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Our Journeys
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Pricing Plans
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Roadmap
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Terms &amp; Conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Privacy Policy
-                    </a>
-                  </li>
                 </ul>
               </div>
               <div className="w-full md:w-1/3 lg:w-auto">
@@ -119,21 +75,11 @@ export const Footer = () => {
                 <ul>
                   <li className="mb-4">
                     <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      About Us
-                    </a>
-                  </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
                       Jobs
                     </a>
                   </li>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Press
-                    </a>
-                  </li>
                   <li>
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a className="text-gray-400 hover:text-gray-300" href="mailto:support@banditco.dev" aria-label="" >
                       Contact Us
                     </a>
                   </li>
@@ -142,7 +88,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2022. MIT license.
+            &copy; 2023 BanditCo.
           </p>
         </div>
       </div>
