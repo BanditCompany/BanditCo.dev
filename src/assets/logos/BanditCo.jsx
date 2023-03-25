@@ -1,8 +1,8 @@
 import React from 'react';
 
-export const BarkleIcon = () => (
+export const BanditCoLogo = () => (
   <img
-    src="/Barkle.png"
+    src="/BanditCoLogo.png"
     alt="BanditCo Logo"
     width="40"
     height="40"

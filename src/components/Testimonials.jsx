@@ -16,7 +16,7 @@ export const Testimonials = () => (
         transition={{ duration: 0.4, delay: 0.3 }}
       >
         <div className="custom-block-subtitle text-center mb-6">
-          Lorem Ipsum
+          Look at those good reviews!
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
           People like you love BanditCo
@@ -38,10 +38,10 @@ export const Testimonials = () => (
               <img src={testimonial1} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  That one guys
                 </div>
                 <div className="custom-content-text-gray">
-                  Founder of Dashflow
+                  Did a thing
                 </div>
               </div>
             </div>
@@ -61,10 +61,10 @@ export const Testimonials = () => (
               <img src={testimonial2} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  That other guy
                 </div>
                 <div className="custom-content-text-gray">
-                  Founder of Dashflow
+                  Also probably does something
                 </div>
               </div>
             </div>
@@ -84,10 +84,10 @@ export const Testimonials = () => (
               <img src={testimonial3} alt="" width="45px" />
               <div className="flex flex-col ml-4">
                 <div className="custom-content-text-white font-medium">
-                  John Watkins
+                  Craig
                 </div>
                 <div className="custom-content-text-gray">
-                  Founder of Dashflow
+                  Is cool
                 </div>
               </div>
             </div>

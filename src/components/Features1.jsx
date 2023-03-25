@@ -39,10 +39,6 @@ export const Features1 = () => {
                   <CheckArrowIcon />
                   <span>All security</span>
                 </li>
-                <li className="mb-4 flex">
-                  <CheckArrowIcon />
-                  <span>Etiam lectus nunc, commodo</span>
-                </li>
               </ul>
             </div>
           </div>

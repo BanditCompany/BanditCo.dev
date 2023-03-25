@@ -1,6 +1,6 @@
 import { BarkleIcon } from "../assets/icons/BarkleIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { BanditCoLogo } from "../assets/logos/BanditCo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
 export const Footer = () => {
@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className="w-full lg:w-1/3 mb-16 lg:mb-0">
               <div className="flex justify-center lg:justify-start items-center grow basis-0">
                 <div className="text-white mr-2 text-6xl">
-                  <TailcastLogo />
+                  <BanditCoLogo />
                 </div>
                 <div className="text-white font-['Inter'] font-bold text-xl">
                   BanditCo
@@ -42,7 +42,7 @@ export const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
+            <div className="w-full lg:w-1/2  lg:pl-16 hidden lg:flex flex-wrap justify-between">
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
                 <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
                 <ul>
@@ -58,19 +58,7 @@ export const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
-                <h3 className="mb-6 text-2xl font-bold text-white">
-                  Important Links
-                </h3>
-                <ul>
-                  <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
-                      Organization Team
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="w-full md:w-1/3 lg:w-auto">
+              <div className="w-full md:w-1/2 lg:w-auto">
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   <li className="mb-4">

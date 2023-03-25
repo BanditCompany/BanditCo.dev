@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import { TailcastLogo } from "../assets/logos/TailcastLogo";
+import { BanditCoLogo } from "../assets/logos/BanditCo";
 import { GithubIcon } from "../assets/icons/GithubIcon";
 import { BarkleIcon } from "../assets/icons/BarkleIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
@@ -21,11 +21,11 @@ export const Navbar = () => {
         >
           <a className="navbar-link" href="#home" aria-label="Home">
             <div className="flex justify-start items-center grow basis-0">
-              <div className="text-white mr-2 text-6xl">
-                <TailcastLogo />
+              <div className="text-white mr-1 text-6xl">
+                <BanditCoLogo />
               </div>
               <div className="text-white font-['Inter'] font-bold text-xl">
-                BanditCo
+                anditCo
               </div>
             </div>
           </a>
@@ -43,14 +43,8 @@ export const Navbar = () => {
             <a className="navbar-link" href="#features" aria-label="Features">
               Features
             </a>
-            <a className="navbar-link" href="#pricing" aria-label="Pricing">
-              Pricing
-            </a>
-            <a className="navbar-link" href="#feedback" aria-label="Feedback">
+            <a className="navbar-link" href="https://barkle.chat@BanditCo" aria-label="Feedback">
               Feedback
-            </a>
-            <a className="navbar-link" href="#FAQ" aria-label="FAQ">
-              FAQ
             </a>
           </div>
         </motion.div>
@@ -101,36 +95,11 @@ export const Navbar = () => {
               </a>
               <a
                 className="navbar-link"
-                href="#pricing"
-                onClick={() => setIsOpen(false)}
-                aria-label="Pricing"
-              >
-                Pricing
-              </a>
-              <a
-                className="navbar-link"
                 href="#feedback"
                 onClick={() => setIsOpen(false)}
                 aria-label="Feedback"
               >
                 Feedback
-              </a>
-              <a
-                className="navbar-link"
-                href="#FAQ"
-                onClick={() => setIsOpen(false)}
-                aria-label="FAQ"
-              >
-                FAQ
-              </a>
-              <a
-                className="text-white custom-border-gray rounded-xl
-           bg-customDarkBg2 hover:bg-customDarkBg3  border-gray-700 pl-6 pr-8 pt-2 pb-2 text-sm flex"
-                href="https://github.com/matt765/Tidestream"
-                target="_blank"
-              >
-                <GithubIcon />
-                Source code
               </a>
             </div>
           </motion.div>
