@@ -47,12 +47,12 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a className="text-gray-400 hover:text-gray-300" href="https://barkle.chat/@Avunite" aria-label="" >
                       Avunite
                     </a>
                   </li>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a className="text-gray-400 hover:text-gray-300" href="https://barkle.chat/" aria-label="" >
                       Barkle
                     </a>
                   </li>
@@ -74,7 +74,7 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="#" aria-label="" >
+                    <a className="text-gray-400 hover:text-gray-300" href="https://jobs.banditco.dev/" aria-label="" >
                       Jobs
                     </a>
                   </li>
