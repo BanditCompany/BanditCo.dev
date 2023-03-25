@@ -62,7 +62,7 @@ export const Footer = () => {
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   <li className="mb-4">
-                    <a className="text-gray-400 hover:text-gray-300" href="https://jobs.banditco.dev/" aria-label="" >
+                    <a className="text-gray-400 hover:text-gray-300" href="https://banditco.dev/jobs" aria-label="" >
                       Jobs
                     </a>
                   </li>
