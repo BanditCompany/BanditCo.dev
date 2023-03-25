@@ -1,4 +1,4 @@
-# Tailcast
+# BanditCo
 
 Dark themed website template built on AstroJS, designed for saas/startup business.
 
