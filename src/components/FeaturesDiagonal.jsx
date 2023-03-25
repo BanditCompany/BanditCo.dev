@@ -35,7 +35,7 @@ export const FeaturesDiagonal = () => {
               But there's more!
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Inovating for the future!
+              Innovating for the future!
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
               Here at BanditCo we dont believe in only making social media platforms. We also want to help the future of humanity in terms of Ai. We believe that with Avunite we can bring quality open source Ai back to the people!
